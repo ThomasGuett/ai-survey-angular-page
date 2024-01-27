@@ -1,0 +1,78 @@
+:host {
+    background: lightgray;
+    //background: url('../../assets/camunda-cat.png') no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .title {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0 60px;
+    }
+
+    .mat-btn {
+        background-color: blue;
+        margin: 1em;
+    }
+
+    .file-input {
+        display: none;
+    }
+
+    .thankyou {
+        text-align: center;
+    }
+
+    .container {
+        display:block;
+        width:100%;
+        height:100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inputfield {
+        width: 100%;
+    }
+
+    .mat-card {
+        //align-items: center;
+        padding: 30px 30px;
+        width: 100%;
+        margin: 1em;
+        //height: 80%;
+        //background-image: url("../../assets/camunda-cat.png");
+        background-size: cover;
+        background-position: center center;
+    }
+  
+    .upload-card {
+      padding: 30px 60px;
+  
+      .content {
+        form {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+  
+          .mat-form-field {
+            width: 100%;
+          }
+  
+          .submit {
+            font-size: 16px;
+            padding: 10px 60px;
+            margin: 40px 0;
+          }
+        }
+  
+        .back-to-sign-in {
+          text-align: center;
+        }
+      }
+    }
+  }
